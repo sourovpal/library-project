@@ -1,0 +1,499 @@
+@media(max-width: 768px){
+    .menu-bar-button{
+        float: right;
+        margin-top: 10px;
+    }
+}
+.navbar-toggler-icon{
+    font-size: 16px;
+}
+.nav-link-text{
+    color: rgb(160, 156, 156);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 2px 4px 2px 4px;
+}
+
+#custom-search-input {
+margin:0;
+width: 100%;
+padding: 0;
+}
+.st-tab > .nav-link{
+padding: 0.3rem 1rem;
+border-radius: 30px;
+color: #555;
+font-weight: 600;
+}
+
+.st-tab> .nav-link.active, .st-tab> .show>.nav-link{
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(58,76,180,1) 100%) !important;
+transition:all .5s ease;
+}
+
+.tab-bar{
+border-radius: 30px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+}
+
+#custom-search-input .search-query {
+padding-right: 15px;
+padding-right: 4px \9;
+padding-left: 15px;
+padding-left: 4px \9;
+/* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+margin-bottom: 0;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
+
+.menu-movies::before{
+font-family: "Font Awesome 5 Free";
+content: "\f008";
+display: inline-block;
+font-size: 24px;
+padding-right: 4px;
+padding-bottom: 4px;
+vertical-align: middle;
+font-weight:900;
+}
+
+.menu-tv-show:before{
+font-family: "Font Awesome 5 Free";
+content: "\f26c";
+display: inline-block;
+font-size: 24px;
+padding-right: 4px;
+padding-bottom: 4px;
+vertical-align: middle;
+font-weight:900;
+}
+
+.menu-awards-events::before{
+font-family: "Font Awesome 5 Free";
+content: "\f5a2";
+display: inline-block;
+font-size: 24px;
+padding-right: 4px;
+padding-bottom: 4px;
+vertical-align: middle;
+font-weight:900;
+}
+
+.margin-left-36{
+margin-left: 36px;
+}
+
+.main-menu-list> .menu-item> .menu-link{
+color: #fff;
+}
+#custom-search-input button {
+border: 0;
+background: none;
+/** belows styles are working good */
+padding: 5px 5px;
+margin-top: 2px;
+position: relative;
+left: -35px;
+/* IE7-8 doesn't have border-radius, so don't indent the padding */
+margin-bottom: 0;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+color: #ef4343;
+}
+
+.search-query:focus + button {
+z-index: 3;   
+}
+
+#custom-search-input> div> input[type="text"]{
+background-color:#e1e3e4 !important;
+height: 36px;
+}
+
+.nav-right-button a{
+font-size: 14px;
+font-weight: 600;
+color: rgba(255,255,255,.5);
+}
+
+.ads-section > img{
+width: 100%;
+}
+
+.blog> .well{
+cursor: pointer;
+}
+
+.blog> a{
+    text-decoration: none;
+}
+
+.blog> a> .well:hover{
+box-shadow: #ddd;
+transform: scale(1.02, 1.02);
+transition: all;
+transition-duration: .3s;
+}
+
+.blog-title{
+font-size: 1.5rem;
+font-weight: 600;
+}
+.ads-area-top{
+max-height: 300px;
+}
+.ads-area-top img{
+max-width: 100%;
+max-height: 300px;
+}
+
+.media > span > img{
+width: 120px;
+height: 130px;
+border-radius: 10px;
+}
+
+.font-size-26{
+font-size: 26px;
+}
+
+.blog > .well{
+border-radius: 18px;
+-webkit-border-radius: 18px;
+-moz-border-radius: 18px;
+}
+.mt-n6{
+margin-top: -6px;
+}
+.font-size-14{
+font-size: 14px;
+}
+
+.sidebar-ads-1 > img{
+width: 100%;
+}
+
+.sidebar-upload-icon > .fa-upload{
+font-size: 50px;
+
+}
+
+.text-gray-50{
+color:rgb(160, 156, 156);
+}
+
+.upload-btn{
+padding-left: 30px;
+padding-right: 30px;
+font-weight: 600;
+}
+
+.uploads-sub-area {
+padding: 58px;
+}
+.btn-genres-sm{
+border-radius: 30px;
+font-weight: 600;
+margin: 6px;
+}
+
+.genres-title{
+font-weight: 900;
+}
+
+.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+
+.section-title{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 8px;
+float: left;
+margin-top: 24px;
+}
+
+.movie-grid>.movie-poster>.movie-image{
+width: 100%;
+height: 220px;
+border-radius: 20px;
+}
+
+.movie-grid{
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.movie-title{
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+}
+
+.font-size-12{
+font-size: 12px;
+}
+
+.font-size-33{
+font-size: 33px;
+}
+.color-yellow{
+color:peru;
+}
+
+.genres-tab> .nav-item> .nav-link{
+color:#555;
+padding: .2rem .5rem;
+border-radius: 20px;
+}
+
+.genres-tab> .nav-item> .nav-link.nav-link.active{
+background:rgba(253,29,29,1);
+color: #fff;
+}
+.top-translator>.row>.col-sm-4>.translator-image>img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.translator-rating> .fa-star{
+color:rgb(253, 147, 8);
+}
+
+.btn-follow{
+border-radius: 20px;
+}
+
+.translator-meta{
+font-size: 14px;
+}
+.sidebar-vertical-ads>img{
+width: 100%;
+height: 600px;
+}
+
+.footer-link>a{
+color: #fff;
+text-decoration: none;
+}
+
+.email-subcription> input{
+width: 100%;
+background: transparent;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.menu-bar-button{
+border-radius: 30px;
+cursor: pointer;
+}
+.menu-bar-button:hover{
+color:rgb(235, 131, 13);
+transition: color 1s;
+-webkit-transition: color 1s;
+}
+
+@font-face {
+font-family: NexaBold;
+src: url("/vendor/fonts/NexaBold.woff");
+}
+
+.media-body{
+font-family: NexaBold;
+}
+.font-font-weight-900{
+font-weight: 900;
+}
+.year.movie-info{
+color: #925aeb;
+font-weight: 900;
+}
+.video-length.movie-info{
+color: #ea454c;
+font-weight: 900;
+}
+.imdb-rating.movie-info{
+color: #c74e8c;
+font-weight: 900;
+}
+
+.year-text, .video-length-text, .imdb-rating-text{
+margin-top: -15px;
+}
+
+.bdsubtitle-footer{
+background-color: #595959;
+}
+
+
+/*switch slider*/
+
+.switch {
+position: relative;
+display: inline-block;
+width: 46px;
+height: 26px;
+}
+
+.switch input { 
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+font-family: "Font Awesome 5 Free";
+content: "\f186";
+font-size: 15px;
+height: 20px;
+width: 20px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(20px);
+-ms-transform: translateX(20px);
+transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+label.switch{
+margin-bottom: 0px !important;
+}
+
+.single-movie-poster> .movie-poster{
+    width: 100%;
+
+}
+
+.single-movie-poster> .movie-poster> img{
+    width: 100%;
+}
+
+.single-movie-title{
+    font-size: 24px;
+    font-weight: bold;
+    }
+.nexa-font{
+    font-family: NexaBold;
+
+}
+.nexa-font-bold{
+    font-family: NexaBold;
+    font-weight: 900;
+}
+
+.px-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inline-h-image{
+    width: 100%;
+}
+
+.rating-square{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    background:rgb(160, 156, 156);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.subtitle-display-rating{
+    width: 10%;
+    min-width: 60px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.subtitle-display-title{
+    width: 45%;
+    min-width: 300px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.subtitle-display-translator{
+    width: 35%;
+    min-width: 150px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.subtitle-display-download{
+    width: 10%;
+    min-width: 60px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.button-square{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    background:rgb(160, 156, 156);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tranlator-name{
+    max-width: 90px;
+    width: 60%;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.tranlator-base> img{
+    width: 60px;
+    height: 60px;
+    margin-top: 4px;
+}
+.movie-description{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.media-body{
+    font-family: NexaBold;
+}
