@@ -61,12 +61,21 @@ Edit Book
     <span class="form-text text-muted">Please enter your book description</span>
    </div>
    <div class="col-lg-6">
+
+    <div class="input-group w-100">
     <label>Total Page:</label>
-    <div class="input-group">
-     <input type="text" name="total_page" class="form-control" placeholder="Enter total number of page" value="{{$book->total_page}}"/>
-     <div class="input-group-append"><span class="input-group-text"><i class="la la-bookmark-o"></i></span></div>
-    </div>
+     <input type="text" name="total_page" class="form-control w-100" placeholder="Enter total number of page" value="{{$book->total_page}}"/>
     <span class="form-text text-muted">Please enter total number of page</span>
+    </div>
+
+    <br>
+     <div class="input-group d-block w-100">
+        <label>Total Books:</label>
+        <input type="text" name="total_books" value="{{$book->total_books}}" class="form-control w-100" placeholder="Enter total number of books"/>
+        <span class="form-text text-muted">Please enter total number of books</span>
+    </div>
+
+
    </div>
   </div>
   <div class="form-group row">

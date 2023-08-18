@@ -15,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PagesController@index')->name('index');
+Route::get('/collect/{id}', 'PagesController@collect')->name('collect');
+Route::get('/status', 'PagesController@status')->name('status');
+Route::get('/logout', 'PagesController@logout')->name('user.logout');
 
 
 Route::group(['prefix' => 'pages'], function () {

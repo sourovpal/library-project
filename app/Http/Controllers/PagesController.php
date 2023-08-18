@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Model\Book;
 use App\Models\AboutUs;
+use App\Models\Order;
 use App\Models\Slider;
 use Illuminate\Http\Request;
 
@@ -16,11 +17,41 @@ class PagesController extends Controller
      */
     public function index()
     {
-        $books = Book::all();
-        $sliders = Slider::all();
-        $about = AboutUs::all()->first();
-        return view('frontend.pages.index', compact('books', 'sliders', 'about'));
+        if (auth()->guard('web')->check()) {
+            return view('frontend.pages.dashboard');
+        }
+        return view('frontend.pages.index');
     }
+
+    public function status(Request $request)
+    {
+        if ($request->status == 0 || $request->status == 3 || $request->status == 1) {
+            $order = Order::where('user_id', auth()->guard('web')->id())->where('id', $request->order_id)->first();
+            if ($order) {
+                $order->update(['status' => $request->status]);
+            }
+        }
+        return back();
+    }
+
+    public function collect(Request $request)
+    {
+        Order::create([
+            'user_id' => auth()->guard('web')->id(),
+            'book_id' => $request->id,
+            'status' => 1,
+            'book_return' => now(),
+        ]);
+        return back()->withSuccess('Success!');
+    }
+
+    public function logout(Request $request)
+    {
+        auth()->guard('web')->logout();
+
+        return back()->withSuccess('Success!');
+    }
+
 
     public function singleShow()
     {
@@ -46,7 +77,7 @@ class PagesController extends Controller
     {
         return view('frontend.pages.news.news_single');
     }
-    
+
     public function singleSubtileShow()
     {
         return view('frontend.pages.single_subtitle_view');

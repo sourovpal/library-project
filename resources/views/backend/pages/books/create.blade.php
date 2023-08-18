@@ -60,16 +60,15 @@ Create Book
     <span class="form-text text-muted">Please enter your book description</span>
    </div>
    <div class="col-lg-6">
-     <div class="input-group d-block">
+     <div class="input-group d-block w-100">
         <label>Total Page:</label>
-        <input type="text" name="total_page" class="form-control" placeholder="Enter total number of page"/>
-        <div class="input-group-append"><span class="input-group-text"><i class="la la-bookmark-o"></i></span></div>
+        <input type="text" name="total_page" class="form-control w-100" placeholder="Enter total number of page"/>
         <span class="form-text text-muted">Please enter total number of page</span>
     </div>
-     <div class="input-group d-block">
+    <br>
+     <div class="input-group d-block w-100">
         <label>Total Books:</label>
-        <input type="text" name="total_books" class="form-control" placeholder="Enter total number of books"/>
-        <div class="input-group-append"><span class="input-group-text"><i class="la la-bookmark-o"></i></span></div>
+        <input type="text" name="total_books" class="form-control w-100" placeholder="Enter total number of books"/>
         <span class="form-text text-muted">Please enter total number of books</span>
     </div>
    </div>
